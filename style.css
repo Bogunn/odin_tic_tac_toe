@@ -1,0 +1,17 @@
+.game-space {
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    height: 90vh;
+    width: 80%;
+    display: flex;
+}
+.box{
+    border: 1px solid black;
+    height: 5rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.box:hover {
+    background-color: darkkhaki;
+}
