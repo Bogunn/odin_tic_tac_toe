@@ -1,15 +1,30 @@
+.card-container{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+.card {
+    height: 90vh; 
+    background-color: lightgrey;
+    border-radius: 20px;
+    width: 35vw;
+    text-align: center;
+}
+
 .game-space {
     background-color: cornflowerblue;
     margin: 0 auto;
     height: 90vh;
     width: 80%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .box{
     border: 1px solid black;
-    height: 5rem;
-    width: 100%;
+    width: 30%;
     cursor: pointer;
+    font-size: 8em;
+    text-align: center;
 }
 
 .box:hover {
